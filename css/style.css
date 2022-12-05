@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(245, 243, 238, 1);
+}
+
+.container{
+    max-width: 768pt;
+    padding: 0pt 16pt;
+    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12pt 0pt;
+}
+
+.header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #E9455D
+}
+
+.conten_1 input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 12pt;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);  
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15pt 15pt;
+}
+
+.content_title{
+    padding:24pt 0pt 16pt 0pt;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: rgba(16,60,74, 1)
+}
+
+.content_title_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending_imagebox{
+    display: flex;
+    overflow:hidden;
+
+}
+
+.trending_imagebox img{
+    padding-right: 12px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+
+.categories_contents_wrap{
+    display: flex;
+    overflow: hidden;
+}
+
+.categories_contents{
+    border-radius: 110pt 110pt 20pt 20pt;
+    background: linear-gradient( to top, #F8C89A , #FA9BB1);
+    display: inline-block;
+    min-width: 28.5%;
+    margin-right: 12pt;
+}
+
+.categories_contents > img{
+width: 100%
+}
+
+
+.categories_contents p{
+    font-size: 0.75rem;
+    color:#292D32;
+    margin-bottom: 4pt;
+    padding: 0pt 4pt;
+}
+
+.categories_contents :last-child{
+text-align: right;
+
+}
+
+
+.user_card_wrap{
+    display: flex;
+    overflow:hidden;
+}
+
+.user_card{
+    padding-right: 1rem;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/images/user_pic1.png
+
+
+
+
+
+
